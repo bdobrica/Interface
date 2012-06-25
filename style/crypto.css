@@ -1,0 +1,28 @@
+@import url(/reset.css);
+* { font-family: Calibri, Arial, Verdana, sans-serif; font-size: 9pt; }
+#main { width: 960px; margin: 0 auto; }
+#wrap { clear: both; }
+#menu { width: 220px; float: left; }
+#cont { width: 734px; float: right; }
+
+#login { width: 300px; margin: 50px auto 0; background: #eee; border-radius: 3px; }
+#login form { display: block; padding: 5px; }
+#login label { display: block; padding: 0.2em 0.5em; }
+#login input[type="text"] { width: 260px; }
+#login input[type="submit"] { margin: 5px auto; }
+#login div { padding 0 5px 5px; clear: both; }
+
+#menu a { color: #000; text-decoration: none; }
+#menu a:hover { text-decoration: underline; }
+#menu ul { list-style-type: none; margin: 0; padding: 0; }
+#menu ul ul { padding-left: 1.5em; }
+#menu li { padding: 0.2em 0.5em; margin: 0 0 1px; border-radius: 3px; background: #eef; }
+#menu li li { background: #efe; }
+
+#cont table { width: 100%; background: #eee; border-radius: 3px; }
+#cont table input[type="text"] { width: 90px; }
+#cont table tbody td { text-align: center; padding: 0.3em 0; }
+#cont table thead td { text-align: center; padding: 0.3em 0.1em; font-weight: bold; background: #ddd; border-radius: 3px; }
+#cont table img { cursor: pointer; }
+
+.clear { clear: both; }
