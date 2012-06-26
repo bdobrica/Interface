@@ -8,8 +8,9 @@
 #login { width: 300px; margin: 50px auto 0; background: #eee; border-radius: 3px; }
 #login form { display: block; padding: 5px; }
 #login label { display: block; padding: 0.2em 0.5em; }
-#login input[type="text"] { width: 260px; }
-#login input[type="submit"] { margin: 5px auto; }
+#login input[type="text"] { width: 280px; }
+#login input[type="password"] { width: 280px; }
+#login input[type="submit"] { margin: 0.5em 0 0 220px; }
 #login div { padding 0 5px 5px; clear: both; }
 
 #menu a { color: #000; text-decoration: none; }

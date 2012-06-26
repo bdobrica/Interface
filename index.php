@@ -2,14 +2,26 @@
 include (dirname(__FILE__).'/main.php');
 
 $pages = array (
+	'basic' => array (
+		'basic' => 'Basic Configuration',
+		'date' => 'Date &amp; Time',
+		'network' => 'Network',
+		),
 	'aaa' => array (
 		'aaa' => 'AAA',
 		'users' => 'User Management',
 		'clients' => 'Client Management',
 		),
+	'sms' => array (
+		'sms' => 'SMS',
+		'settings' => 'SMS Settings',
+		'status' => 'SMS Status',
+		'test' => 'SMS Test',
+		),
 	'server' => array (
 		'server' => 'Server',
-		'control' => 'Control',
+		'control' => 'Control Panel',
+		'status' => 'Server Status',
 		'log' => 'Event Log',
 		),
 	'logout' => 'Log out',

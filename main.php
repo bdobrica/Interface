@@ -55,9 +55,9 @@ $urp = explode ('/', $uri);
 
 /* global */
 if (defined(CRYPTO_USE_SQLITE3))
-	$dbu = new Crypto_DB ('/tmp/user');
+$dbu = new Crypto_DB ('/tmp/user');
 else
-	$dbu = new Crypto_DB ('crypto', 'cryusr', 'crypwd');
+$dbu = new Crypto_DB ('crypto', 'cryusr', 'crypwd');
 
 $t = new XTemplate (CRYPTO_PATH . '/template/un.html');
 /* session */
