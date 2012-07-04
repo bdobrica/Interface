@@ -26,4 +26,7 @@
 #cont table thead td { text-align: center; padding: 0.3em 0.1em; font-weight: bold; background: #ddd; border-radius: 3px; }
 #cont table img { cursor: pointer; }
 
+.widget_slider_background { width: 218px; height: 1em; background: #fff; border: 1px solid #c00; border-radius: 3px; position: relative; }
+.widget_slider_bar { height: 1em; background: #c00; }
+
 .clear { clear: both; }
