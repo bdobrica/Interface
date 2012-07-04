@@ -81,6 +81,7 @@ else {
 
 		if ($handle == $uri) $run = 'crypto '.$handle;
 		}
+	$w->view (array ('t' => $t, 'dbu' => $dby));
 	$t->parse ('main.logged.menu');
 
 	if ($run) {
